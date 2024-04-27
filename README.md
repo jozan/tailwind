@@ -6,7 +6,7 @@
 ![NPM Version](https://img.shields.io/npm/v/%40latehours%2Ftailwind?style=flat)
 ![GitHub License](https://img.shields.io/github/license/jozan/tailwind?style=flat)
 ![Made with vacuum cleaner](https://img.shields.io/badge/made%20with%20-%20husqvarna%20vacuum%20cleaner%20-%20made%20with%20husqvarna?style=flat&logo=husqvarna)
-[![package size](https://deno.bundlejs.com/?q=%40latehours/tailwind&badge=detailed&badge-style=flat&label=size)](https://bundlejs.com/?q=%40latehours/tailwind)
+[![package size](https://deno.bundlejs.com/?q=%40latehours/tailwind/ligatures&badge=detailed&badge-style=flat&label=size)](https://bundlejs.com/?q=%40latehours/tailwind/ligatures)
 
 **`@latehours/tailwind`** is collection of plugins for
 [Tailwind CSS](https://tailwindcss.com) that i need often enough.
