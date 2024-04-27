@@ -1,0 +1,39 @@
+{
+  "name": "@latehours/tailwind",
+  "version": "0.0.1",
+  "description": "collection of tailwind plugins",
+  "license": "MIT",
+  "homepage": "https://github.com/jozan/tailwind#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jozan/tailwind.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jozan/tailwind/issues"
+  },
+  "keywords": ["tailwind", "tailwind plugin", "ligatures"],
+  "author": "jozan <johan@latehours.net>",
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    "./ligatures": {
+      "types": "./dist/dts/ligatures.d.ts",
+      "import": "./dist/esm/ligatures.js",
+      "default": "./dist/esm/ligatures.js"
+    }
+  },
+  "files": ["./dist/**/*.js", "./dist/**/*.d.ts", "./dist/**/*.map"],
+  "devDependencies": {
+    "@biomejs/biome": "1.7.1",
+    "@types/bun": "latest",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "clean": "rm -r ./dist",
+    "check": "tsc -b tsconfig.json",
+    "build": "bun run clean && bun run build-ci",
+    "build-ci": "bun run build-esm",
+    "build-esm": "tsc -b tsconfig.build.json"
+  }
+}
