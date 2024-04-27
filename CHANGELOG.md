@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/jozan/tailwind/compare/v0.1.0...v0.1.1) (2024-04-27)
+
+
+### Miscellaneous Chores
+
+* release 0.1.1 ([2f4dc19](https://github.com/jozan/tailwind/commit/2f4dc197c244a672707a712ca22657836fbca9fc))
+
 ## [0.1.0](https://github.com/jozan/tailwind/compare/v0.0.1...v0.1.0) (2024-04-27)
 
 
