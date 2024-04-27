@@ -1,6 +1,6 @@
 {
   "name": "@latehours/tailwind",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "collection of tailwind plugins",
   "license": "MIT",
   "homepage": "https://github.com/jozan/tailwind#readme",
@@ -11,7 +11,11 @@
   "bugs": {
     "url": "https://github.com/jozan/tailwind/issues"
   },
-  "keywords": ["tailwind", "tailwind plugin", "ligatures"],
+  "keywords": [
+    "tailwind",
+    "tailwind plugin",
+    "ligatures"
+  ],
   "author": "jozan <johan@latehours.net>",
   "sideEffects": false,
   "type": "module",
@@ -22,7 +26,11 @@
       "default": "./dist/esm/ligatures.js"
     }
   },
-  "files": ["./dist/**/*.js", "./dist/**/*.d.ts", "./dist/**/*.map"],
+  "files": [
+    "./dist/**/*.js",
+    "./dist/**/*.d.ts",
+    "./dist/**/*.map"
+  ],
   "devDependencies": {
     "@biomejs/biome": "1.7.1",
     "@types/bun": "latest",
