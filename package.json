@@ -37,13 +37,14 @@
       "types": "./dist/dts/cond.d.ts",
       "import": "./dist/esm/cond.js",
       "default": "./dist/esm/cond.js"
+    },
+    "./condc": {
+      "types": "./dist/dts/condc.d.ts",
+      "import": "./dist/esm/condc.js",
+      "default": "./dist/esm/condc.js"
     }
   },
-  "files": [
-    "./dist/**/*.js",
-    "./dist/**/*.d.ts",
-    "./dist/**/*.map"
-  ],
+  "files": ["./dist/**/*.js", "./dist/**/*.d.ts", "./dist/**/*.map"],
   "devDependencies": {
     "@biomejs/biome": "1.7.1",
     "@types/bun": "latest",

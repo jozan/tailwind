@@ -88,6 +88,29 @@ import { cond } from "@latehours/tailwind/cond";
 />
 ```
 
+### `condc` utility
+
+similar to `cond` but is curried. most useful when combined
+with `cn`.
+
+first add `clsx` to your deps then you can use `condc`:
+
+```typescript
+import { cn } from "@latehours/tailwind/cn";
+import { condc } from "@latehours/tailwind/condc";
+
+const isState = condc(state);
+
+<div
+  className={cn(
+    isState("selected", "bg-yellow-500"),
+    // also accepts third argument which is returned
+    // when condition is false
+    isState("disabled", "bg-gray-500", "bg-yellow-500"),
+  )}
+/>
+```
+
 ## development
 
 To install dev dependencies:
