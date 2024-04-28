@@ -32,13 +32,14 @@
       "types": "./dist/dts/cn.d.ts",
       "import": "./dist/esm/cn.js",
       "default": "./dist/esm/cn.js"
+    },
+    "./cond": {
+      "types": "./dist/dts/cond.d.ts",
+      "import": "./dist/esm/cond.js",
+      "default": "./dist/esm/cond.js"
     }
   },
-  "files": [
-    "./dist/**/*.js",
-    "./dist/**/*.d.ts",
-    "./dist/**/*.map"
-  ],
+  "files": ["./dist/**/*.js", "./dist/**/*.d.ts", "./dist/**/*.map"],
   "devDependencies": {
     "@biomejs/biome": "1.7.1",
     "@types/bun": "latest",

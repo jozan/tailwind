@@ -14,9 +14,6 @@
 is has **zero dependencies**. ofc you need to have `tailwindcss` set up
 in your project.
 
-currently it has only one plugin `ligatures` and one utility `cn`. more
-might be added in the future.
-
 ## usage
 
 install the library using your package manager of choice:
@@ -70,6 +67,25 @@ import { cn } from "@latehours/tailwind/cn";
 
 const padding = "p-4";
 const classes = cn("text-red-500", "bg-blue-500", padding);
+```
+
+### `cond` utility
+
+opinionated way to conditionally add classes. most useful when
+combined with `cn`.
+
+first add `clsx` to your deps then you can use `cond`:
+
+```typescript
+import { cn } from "@latehours/tailwind/cn";
+import { cond } from "@latehours/tailwind/cond";
+
+<div
+  className={cn(
+    cond(state === "selected", "bg-yellow-500"),
+    cond(() => state === "disabled", "bg-gray-500"),
+  )}
+/>
 ```
 
 ## development
