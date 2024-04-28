@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/jozan/tailwind/compare/v0.1.1...v0.2.0) (2024-04-28)
+
+
+### Features
+
+* add cn utility ([caaaaca](https://github.com/jozan/tailwind/commit/caaaaca1673d588684b7f1c1430e112d03a2ab1e))
+
 ## [0.1.1](https://github.com/jozan/tailwind/compare/v0.1.0...v0.1.1) (2024-04-27)
 
 
