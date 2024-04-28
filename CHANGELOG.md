@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/jozan/tailwind/compare/v0.3.0...v0.4.0) (2024-04-28)
+
+
+### Features
+
+* add condc utility ([5f2eda2](https://github.com/jozan/tailwind/commit/5f2eda221bc91f4a74dd1485f172fd4e52bee7be))
+
 ## [0.3.0](https://github.com/jozan/tailwind/compare/v0.2.1...v0.3.0) (2024-04-28)
 
 
