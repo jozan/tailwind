@@ -14,8 +14,8 @@
 is has **zero dependencies**. ofc you need to have `tailwindcss` set up
 in your project.
 
-currently it has only one plugin: `ligatures`. more might be added in
-the future.
+currently it has only one plugin `ligatures` and one utility `cn`. more
+might be added in the future.
 
 ## usage
 
@@ -27,6 +27,10 @@ pnpm install @latehours/tailwind
 bun add @latehours/tailwind
 yarn add @latehours/tailwind
 ```
+
+### `ligatures` plugin
+
+define how ligatures should behave.
 
 in your `tailwind.config.mjs`:
 
@@ -53,6 +57,19 @@ in your `file.html` or `component.tsx`:
 <div class="ligatures-no-historical">no historical ligatures</div>
 <div class="ligatures-contextual">contextual ligatures</div>
 <div class="ligatures-no-contextual">no contextual ligatures</div>
+```
+
+### `cn` utility
+
+merge classnames together.
+
+first add `clsx` and `tailwind-merge` to your deps then you can use `cn`:
+
+```typescript
+import { cn } from "@latehours/tailwind/cn";
+
+const padding = "p-4";
+const classes = cn("text-red-500", "bg-blue-500", padding);
 ```
 
 ## development
