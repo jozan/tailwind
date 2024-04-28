@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/jozan/tailwind/compare/v0.2.1...v0.3.0) (2024-04-28)
+
+
+### Features
+
+* add cond utility ([d652c80](https://github.com/jozan/tailwind/commit/d652c80e22387234c85bc953cb2a00360e0c9504))
+
 ## [0.2.1](https://github.com/jozan/tailwind/compare/v0.2.0...v0.2.1) (2024-04-28)
 
 

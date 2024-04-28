@@ -1,6 +1,6 @@
 {
   "name": "@latehours/tailwind",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "collection of tailwind plugins",
   "license": "MIT",
   "homepage": "https://github.com/jozan/tailwind#readme",
@@ -39,7 +39,11 @@
       "default": "./dist/esm/cond.js"
     }
   },
-  "files": ["./dist/**/*.js", "./dist/**/*.d.ts", "./dist/**/*.map"],
+  "files": [
+    "./dist/**/*.js",
+    "./dist/**/*.d.ts",
+    "./dist/**/*.map"
+  ],
   "devDependencies": {
     "@biomejs/biome": "1.7.1",
     "@types/bun": "latest",
